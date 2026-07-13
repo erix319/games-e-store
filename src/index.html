@@ -1,0 +1,898 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<!-- Description -->
+		<meta
+			name="description"
+			content="Game store - your own game station. Dive into the world of modern games with us! We offer console rental, team competitions, server rental, and a vibrant gaming community. Join us for the best gaming experience!"
+		/>
+
+		<!-- Icons  -->
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="icons/apple-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="icons/apple-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="icons/apple-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="icons/apple-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="icons/apple-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="icons/apple-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="icons/apple-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="icons/apple-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="icons/apple-icon-180x180.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="icons/android-icon-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="icons/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="96x96"
+			href="icons/favicon-96x96.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="icons/favicon-16x16.png"
+		/>
+		<link
+			rel="manifest"
+			href="icons/manifest.json"
+		/>
+		<meta
+			name="msapplication-TileColor"
+			content="#ffffff"
+		/>
+		<meta
+			name="msapplication-TileImage"
+			content="icons/ms-icon-144x144.png"
+		/>
+		<meta
+			name="theme-color"
+			content="#ffffff"
+		/>
+
+		<!-- Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- CSS -->
+		<link
+			rel="stylesheet"
+			href="css/style.css"
+		/>
+
+		<title>Game store</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Sidebar with navigation -->
+			<div class="sidebar">
+				<!-- Navigation container -->
+				<div class="navigation">
+					<!-- Hidden menu toggle checkbox -->
+					<input
+						type="checkbox"
+						class="navigation__toggle"
+						id="navi-toggle"
+						aria-label="Toggle navigation menu"
+					/>
+
+					<!-- Hamburger menu button -->
+					<label
+						for="navi-toggle"
+						class="navigation__button"
+						aria-label="Toggle navigation menu"
+					>
+						<span class="navigation__icon"></span>
+					</label>
+
+					<!-- Animated background -->
+					<div class="navigation__background"></div>
+
+					<!-- Navigation menu -->
+					<nav class="navigation__nav">
+						<ul class="navigation__list">
+							<!-- Menu items -->
+							<li class="navigation__item">
+								<a
+									href="#"
+									class="navigation__link"
+									>Console Rental</a
+								>
+							</li>
+
+							<li class="navigation__item">
+								<a
+									href="#"
+									class="navigation__link"
+									>Team Competitions</a
+								>
+							</li>
+
+							<li class="navigation__item">
+								<a
+									href="#"
+									class="navigation__link"
+									>Server Rental</a
+								>
+							</li>
+
+							<li class="navigation__item">
+								<a
+									href="#"
+									class="navigation__link"
+									>Community</a
+								>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<!-- Header -->
+			<div class="header">
+				<!-- Logo -->
+				<a
+					href="#"
+					class="logo"
+				>
+					<img
+						src="icons/logo.svg"
+						alt="logo"
+						class="logo__img"
+					/>
+				</a>
+
+				<!-- Title -->
+				<h4 class="title-4">YOUR OWN GAME STATION</h4>
+				<h1 class="title-1">Dive into the world of modern games</h1>
+
+				<!-- Button -->
+				<button class="btn header__btn">SELECT PLATFORM</button>
+
+				<!-- Horizontal line -->
+				<div class="header__line-text">About us</div>
+
+				<div class="header__img">
+					<img
+						src="icons/game-1.png"
+						alt="Header sponsor image 1"
+					/><img
+						src="icons/game-2.png"
+						alt="Header sponsor image 2"
+					/><img
+						src="icons/game-3.png"
+						alt="Header sponsor image 3"
+					/><img
+						src="icons/game-4.png"
+						alt="Header sponsor image 4"
+					/>
+				</div>
+			</div>
+
+			<!-- Gamers -->
+			<div class="gamers">
+				<h3 class="title-3 gamers__title title-3_green-light">
+					TOP 3 PLAYERS
+				</h3>
+
+				<div class="gamers__box">
+					<!-- Player 1 -->
+					<img
+						src="img/gamer-1.png"
+						alt="Profile picture 1"
+						class="gamers__img"
+					/>
+					<div class="gamers__text">
+						<h3 class="title-3 title-3_white">Jane Doe</h3>
+						<p class="gamers__score">Score: 7514</p>
+					</div>
+				</div>
+
+				<div class="gamers__box">
+					<!-- Player 2 -->
+					<img
+						src="img/gamer-2.png"
+						alt="Profile picture 2"
+						class="gamers__img"
+					/>
+					<div class="gamers__text">
+						<h3 class="title-3 title-3_white">John Doe</h3>
+						<p class="gamers__score">Score: 6128</p>
+					</div>
+				</div>
+
+				<div class="gamers__box">
+					<!-- Player 3 -->
+					<img
+						src="img/gamer-3.png"
+						alt="Profile picture 3"
+						class="gamers__img"
+					/>
+					<div class="gamers__text">
+						<h3 class="title-3 title-3_white">Jack Doe</h3>
+						<p class="gamers__score">Score: 5136</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Features -->
+			<div class="features">
+				<!-- Feature 1 -->
+				<div class="feature">
+					<svg class="feature__icon">
+						<use
+							xlink:href="icons/symbol-defs.svg#icon-steam2"
+						></use>
+					</svg>
+
+					<h3 class="title-3">Best Gaming Platform</h3>
+					<p class="feature__text">
+						As we have repeatedly mentioned, basic user behavior
+						scenarios illuminate extremely interesting features of
+						the platform.
+					</p>
+				</div>
+
+				<!-- Feature 2 -->
+				<div class="feature">
+					<svg class="feature__icon">
+						<use
+							xlink:href="icons/symbol-defs.svg#icon-Vector-2"
+						></use>
+					</svg>
+
+					<h3 class="title-3">Weekly tours</h3>
+					<p class="feature__text">
+						As we have repeatedly mentioned, basic user behavior
+						scenarios illuminate extremely interesting features of
+						the platform.
+					</p>
+				</div>
+
+				<!-- Feature 3 -->
+				<div class="feature">
+					<svg class="feature__icon">
+						<use
+							xlink:href="icons/symbol-defs.svg#icon-Vector-1"
+						></use>
+					</svg>
+
+					<h3 class="title-3">Online chatting</h3>
+					<p class="feature__text">
+						As we have repeatedly mentioned, basic user behavior
+						scenarios illuminate extremely interesting features of
+						the platform.
+					</p>
+				</div>
+
+				<!-- Feature 4 -->
+				<div class="feature">
+					<svg class="feature__icon">
+						<use
+							xlink:href="icons/symbol-defs.svg#icon-earth"
+						></use>
+					</svg>
+
+					<h3 class="title-3">International community</h3>
+					<p class="feature__text">
+						As we have repeatedly mentioned, basic user behavior
+						scenarios illuminate extremely interesting features of
+						the platform.
+					</p>
+				</div>
+
+				<!-- Feature 5 -->
+				<div class="feature">
+					<svg class="feature__icon">
+						<use
+							xlink:href="icons/symbol-defs.svg#icon-bubbles2"
+						></use>
+					</svg>
+
+					<h3 class="title-3">24/7 online support</h3>
+					<p class="feature__text">
+						As we have repeatedly mentioned, basic user behavior
+						scenarios illuminate extremely interesting features of
+						the platform.
+					</p>
+				</div>
+
+				<!-- Feature 6 -->
+				<div class="feature">
+					<svg class="feature__icon">
+						<use
+							xlink:href="icons/symbol-defs.svg#icon-Vector"
+						></use>
+					</svg>
+
+					<h3 class="title-3">Many means of payment</h3>
+					<p class="feature__text">
+						As we have repeatedly mentioned, basic user behavior
+						scenarios illuminate extremely interesting features of
+						the platform.
+					</p>
+				</div>
+			</div>
+
+			<!-- Banner Image -->
+			<div class="banner-img">
+				<img
+					src="img/banner-1.png"
+					alt="Looking at PC"
+					class="banner-img__img-1"
+				/><img
+					src="img/banner-2.png"
+					alt="Friends playing"
+					class="banner-img__img-2"
+				/>
+			</div>
+
+			<!-- Banner Text -->
+			<div class="banner-text">
+				<h4 class="title-4">LEAD YOUR TEAM TO VICTORY</h4>
+				<h2 class="title-2 mb-sm">
+					The Best Place for Online Competitions
+				</h2>
+				<p class="banner-text__text">
+					As we have repeatedly mentioned, basic user behavior
+					scenarios illuminate extremely interesting features of the
+					platform.
+				</p>
+				<button class="btn">CREATE A TEAM</button>
+			</div>
+
+			<!-- Cards -->
+			<div class="cards">
+				<!-- Card 1 -->
+				<div class="card">
+					<!-- Card image -->
+					<img
+						src="img/card-1.png"
+						alt="Card img"
+						class="card__img"
+					/>
+
+					<!-- Card title -->
+					<h5 class="card__title">PC</h5>
+
+					<!-- Card icons -->
+					<div class="content card__location">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-location-1"
+							></use>
+						</svg>
+						<p>EUR</p>
+					</div>
+
+					<div class="content card__man">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-users-1"
+							></use>
+						</svg>
+						<p>20+ players</p>
+					</div>
+
+					<div class="content card__credit">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-Vector"
+							></use>
+						</svg>
+						<p>From 9 EUR</p>
+					</div>
+
+					<div class="content card__monitor">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-display-1"
+							></use>
+						</svg>
+						<p>4k monitor</p>
+					</div>
+
+					<button class="btn card__btn">SELECT PLATFORM</button>
+				</div>
+
+				<!-- Card 2 -->
+				<div class="card">
+					<!-- Card image -->
+					<img
+						src="img/card-2.png"
+						alt="Card img"
+						class="card__img"
+					/>
+
+					<!-- Card title -->
+					<h5 class="card__title">Play Station</h5>
+
+					<!-- Card icons -->
+					<div class="content card__location">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-location-1"
+							></use>
+						</svg>
+						<p>EUR</p>
+					</div>
+
+					<div class="content card__man">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-users-1"
+							></use>
+						</svg>
+						<p>20+ players</p>
+					</div>
+
+					<div class="content card__credit">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-Vector"
+							></use>
+						</svg>
+						<p>from 9 EUR</p>
+					</div>
+
+					<div class="content card__monitor">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-display-1"
+							></use>
+						</svg>
+						<p>4k monitor</p>
+					</div>
+					<button class="btn card__btn">SELECT PLATFORM</button>
+				</div>
+
+				<!-- Card 3 -->
+				<div class="card">
+					<!-- Card image -->
+					<img
+						src="img/card-3.png"
+						alt="Card img"
+						class="card__img"
+					/>
+
+					<!-- Card title -->
+					<h5 class="card__title">X-BOX</h5>
+
+					<!-- Card icons -->
+					<div class="content card__location">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-location-1"
+							></use>
+						</svg>
+						<p>EUR</p>
+					</div>
+
+					<div class="content card__man">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-users-1"
+							></use>
+						</svg>
+						<p>20+ players</p>
+					</div>
+
+					<div class="content card__credit">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-Vector"
+							></use>
+						</svg>
+						<p>from 9 EUR</p>
+					</div>
+
+					<div class="content card__monitor">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-display-1"
+							></use>
+						</svg>
+						<p>4k monitor</p>
+					</div>
+					<button class="btn card__btn">SELECT PLATFORM</button>
+				</div>
+
+				<!-- Card 4 -->
+				<div class="card">
+					<!-- Card image -->
+					<img
+						src="img/card-4.png"
+						alt="Card img"
+						class="card__img"
+					/>
+
+					<!-- Card title -->
+					<h5 class="card__title">Nintendo</h5>
+
+					<!-- Card icons -->
+					<div class="content card__location">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-location-1"
+							></use>
+						</svg>
+						<p>EUR</p>
+					</div>
+
+					<div class="content card__man">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-users-1"
+							></use>
+						</svg>
+						<p>20+ players</p>
+					</div>
+
+					<div class="content card__credit">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-Vector"
+							></use>
+						</svg>
+						<p>from 9 EUR</p>
+					</div>
+
+					<div class="content card__monitor">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-display-1"
+							></use>
+						</svg>
+						<p>4k monitor</p>
+					</div>
+					<button class="btn card__btn">SELECT PLATFORM</button>
+				</div>
+
+				<!-- Card 5 -->
+				<div class="card">
+					<!-- Card image -->
+					<img
+						src="img/card-5.png"
+						alt="Card img"
+						class="card__img"
+					/>
+
+					<!-- Card title -->
+					<h5 class="card__title">Steam deck</h5>
+
+					<!-- Card icons -->
+					<div class="content card__location">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-location-1"
+							></use>
+						</svg>
+						<p>EUR</p>
+					</div>
+
+					<div class="content card__man">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-users-1"
+							></use>
+						</svg>
+						<p>20+ players</p>
+					</div>
+
+					<div class="content card__credit">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-Vector"
+							></use>
+						</svg>
+						<p>from 9 EUR</p>
+					</div>
+
+					<div class="content card__monitor">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-display-1"
+							></use>
+						</svg>
+						<p>4k monitor</p>
+					</div>
+					<button class="btn card__btn">SELECT PLATFORM</button>
+				</div>
+
+				<!-- Card 6 -->
+				<div class="card">
+					<!-- Card image -->
+					<img
+						src="img/card-6.png"
+						alt="Card img"
+						class="card__img"
+					/>
+
+					<!-- Card title -->
+					<h5 class="card__title">Mobile</h5>
+
+					<!-- Card icons -->
+					<div class="content card__location">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-location-1"
+							></use>
+						</svg>
+						<p>EUR</p>
+					</div>
+
+					<div class="content card__man">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-users-1"
+							></use>
+						</svg>
+						<p>20+ players</p>
+					</div>
+
+					<div class="content card__credit">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-Vector"
+							></use>
+						</svg>
+						<p>from 9 EUR</p>
+					</div>
+
+					<div class="content card__monitor">
+						<svg class="card__svg">
+							<use
+								xlink:href="icons/sprite-2.svg#icon-display-1"
+							></use>
+						</svg>
+						<p>4k monitor</p>
+					</div>
+					<button class="btn card__btn">SELECT PLATFORM</button>
+				</div>
+			</div>
+
+			<!-- Gallery -->
+			<!-- Emmet help: (.gallery__item.gallery__item-$>img.gallery__img[src="img/gal-$.png"][alt="Gallery image - $"])*14 -->
+			<div class="gallery">
+				<!-- Image 1 -->
+				<div class="gallery__item gallery__item-1">
+					<img
+						src="img/gal-1.png"
+						alt="Gallery image - 1"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 2 -->
+				<div class="gallery__item gallery__item-2">
+					<img
+						src="img/gal-2.png"
+						alt="Gallery image - 2"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 3 -->
+				<div class="gallery__item gallery__item-3">
+					<img
+						src="img/gal-3.png"
+						alt="Gallery image - 3"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 4 -->
+				<div class="gallery__item gallery__item-4">
+					<img
+						src="img/gal-4.png"
+						alt="Gallery image - 4"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 5 -->
+				<div class="gallery__item gallery__item-5">
+					<img
+						src="img/gal-5.png"
+						alt="Gallery image - 5"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 6 -->
+				<div class="gallery__item gallery__item-6">
+					<img
+						src="img/gal-6.png"
+						alt="Gallery image - 6"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 7 -->
+				<div class="gallery__item gallery__item-7">
+					<img
+						src="img/gal-7.png"
+						alt="Gallery image - 7"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 8 -->
+				<div class="gallery__item gallery__item-8">
+					<img
+						src="img/gal-8.png"
+						alt="Gallery image - 8"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 9 -->
+				<div class="gallery__item gallery__item-9">
+					<img
+						src="img/gal-9.png"
+						alt="Gallery image - 9"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 10 -->
+				<div class="gallery__item gallery__item-10">
+					<img
+						src="img/gal-10.png"
+						alt="Gallery image - 10"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 11 -->
+				<div class="gallery__item gallery__item-11">
+					<img
+						src="img/gal-11.png"
+						alt="Gallery image - 11"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 12 -->
+				<div class="gallery__item gallery__item-12">
+					<img
+						src="img/gal-12.png"
+						alt="Gallery image - 12"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 13 -->
+				<div class="gallery__item gallery__item-13">
+					<img
+						src="img/gal-13.png"
+						alt="Gallery image - 13"
+						class="gallery__img"
+					/>
+				</div>
+
+				<!-- Image 14 -->
+				<div class="gallery__item gallery__item-14">
+					<img
+						src="img/gal-14.png"
+						alt="Gallery image - 14"
+						class="gallery__img"
+					/>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div class="footer">
+				<!-- Logo -->
+				<a
+					href="#"
+					class="logo"
+				>
+					<img
+						src="icons/logo.svg"
+						alt="logo"
+						class="logo__img"
+					/>
+				</a>
+
+				<!-- <hr class="footer__hr" /> -->
+
+				<!-- Nav menu -->
+				<div class="nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a
+								href="#"
+								class="nav__link"
+								>CONSOLE RENTAL</a
+							>
+						</li>
+						<li class="nav__item">
+							<a
+								href="#"
+								class="nav__link"
+								>TEAM COMPETITIONS</a
+							>
+						</li>
+						<li class="nav__item">
+							<a
+								href="#"
+								class="nav__link"
+								>SERVER RENTAL</a
+							>
+						</li>
+						<li class="nav__item">
+							<a
+								href="#"
+								class="nav__link"
+								>COMMUNITY</a
+							>
+						</li>
+						<li class="nav__item">
+							<a
+								href="#"
+								class="nav__link"
+								>WORK AND PLAY</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
