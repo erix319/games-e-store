@@ -34,7 +34,7 @@ A modern landing page for a fictional game store built with HTML, CSS, and Sass.
 
 This project is published on GitHub Pages:
 
-- Live site: https://erix319.github.io/games-e-store/
+- Live site: https://pafuluofu-dev.github.io/games-e-store/
 
 ## Project Structure
 
